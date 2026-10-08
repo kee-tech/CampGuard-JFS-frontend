@@ -4,7 +4,7 @@ import axios from "axios";
 import "./App.css";
 import Login from "./Login";
 
-const API = "http://localhost:8080/api";
+const API = "https://campguard-backend.onrender.com/api";
 axios.interceptors.request.use((config) => {
     const savedUser = localStorage.getItem("campguardUser");
 
