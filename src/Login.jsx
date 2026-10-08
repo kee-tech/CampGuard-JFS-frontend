@@ -1,8 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8080/api";
-
+const API = "https://campguard-backend.onrender.com/api";
 function Login({ onLogin }) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
